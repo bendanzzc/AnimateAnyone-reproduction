@@ -3,7 +3,7 @@ reproduction of AnimateAnyone using SVD
 
 the model is stay tunning. We will release the code and model when we finish tuning. 
 
-we will release V1 checkpoint and inference code in few days! We will continue tining the model and update model.
+we will release V1 checkpoint and inference code in few days! We will continue tuning the model and update model.
  
 # V1
 https://github.com/bendanzzc/AnimateAnyone-reproduction/assets/26294676/3bffc2db-6b46-4386-bed9-1d59dc7f62e1
