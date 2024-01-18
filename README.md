@@ -1,7 +1,7 @@
 # animate-anyone-reproduction
 reproduction of AnimateAnyone using SVD
 
-the model is stay tunning. We will release the code and model when we finish tuning. 
+~~the model is stay tunning. We will release the code and model when we finish tuning.~~
 
 we will release V1 checkpoint and inference code in few days! We will continue tuning the model and update model.
  
