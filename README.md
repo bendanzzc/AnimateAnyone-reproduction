@@ -7,7 +7,7 @@ reproduction of AnimateAnyone using SVD
 
 **2024-01-25 update**
 
-according to analyse animate anyone app cases, we find there may be some tricks instead of training model. so we will update the case which has better face quality with free training. 
+- according to analyse animate anyone app cases, we find there may be some tricks instead of training model. so we will update the case which has better face quality with free training. 
 
 
 ### To Do list
