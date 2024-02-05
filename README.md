@@ -9,7 +9,13 @@ reproduction of AnimateAnyone using SVD
 - [x] train animate-anyone like pipeline V1 which can generate arbitrary frames per ref-image
 - [x] enhance face quality and time consistency(trick according to analyse animate anyone app cases)
 - [ ] release V1 inference code and model
- ---
+---
+ **2024-02-05 update**
+- because of the [issue](https://github.com/bendanzzc/AnimateAnyone-reproduction/issues/4), we decide to release inference code in advance which is not well organized but works.
+- as for postprocess of face, you can use any video face swap framework to do that. More details can be found in [issue](https://github.com/bendanzzc/AnimateAnyone-reproduction/issues/3).
+- our inference code mainly baed on [SVD_Xtend](https://github.com/pixeli99/SVD_Xtend), you can also use training code to train your own model.
+- our dataset is only UBC, we will continue collecting high quailty video data.
+---
  **2024-01-25 update**
 - according to analyse animate anyone app cases, we find there may be some tricks instead of training model. so we will update the case which has better face quality with free training.
 - the face enhance result shows below in the V1 part
