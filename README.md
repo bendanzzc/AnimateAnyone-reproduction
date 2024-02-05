@@ -22,15 +22,19 @@ reproduction of AnimateAnyone using SVD
 ---
 
 ### V1
-https://github.com/bendanzzc/AnimateAnyone-reproduction/assets/26294676/3bffc2db-6b46-4386-bed9-1d59dc7f62e1
+**cross-domain case**
 
-https://github.com/bendanzzc/AnimateAnyone-reproduction/assets/26294676/027608d9-970b-4f3e-b47f-f95e7be8553c
+https://github.com/bendanzzc/AnimateAnyone-reproduction/assets/26294676/6add2e5f-a110-4513-adaa-ac24378971af
 
 **with face enhance**
 
 https://github.com/bendanzzc/AnimateAnyone-reproduction/assets/26294676/0af71e3f-623a-4f31-8fa7-d82ea86ae6c2
 
+**ori result**
 
+https://github.com/bendanzzc/AnimateAnyone-reproduction/assets/26294676/3bffc2db-6b46-4386-bed9-1d59dc7f62e1
+
+https://github.com/bendanzzc/AnimateAnyone-reproduction/assets/26294676/027608d9-970b-4f3e-b47f-f95e7be8553c
 
 ---
 ### v0.9
