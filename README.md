@@ -13,7 +13,7 @@ reproduction of AnimateAnyone using SVD
  **2024-02-05 update**
 - because of the [issue](https://github.com/bendanzzc/AnimateAnyone-reproduction/issues/4), we decide to release inference code in advance which is not well organized but works.
 - as for postprocess of face, you can use any video face swap framework to do that. More details can be found in [issue](https://github.com/bendanzzc/AnimateAnyone-reproduction/issues/3).
-- our inference code mainly baed on [svd-temporal-controlnet]([https://github.com/pixeli99/SVD_Xtend](https://github.com/CiaraStrawberry/svd-temporal-controlnet)), you can also use training code to train your own model.
+- our inference code mainly baed on [svd-temporal-controlnet](https://github.com/CiaraStrawberry/svd-temporal-controlnet), you can also use training code to train your own model.
 - our dataset is only UBC, but it can generalize to other simple domains. we will continue collecting high quailty video data.
 ---
  **2024-01-25 update**
