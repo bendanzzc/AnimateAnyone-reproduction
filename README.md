@@ -1,7 +1,7 @@
 # animate-anyone-reproduction
 reproduction of AnimateAnyone using SVD
 
-**we will release V1 checkpoint and inference code after spring festival with postprocess to enhance face quality. We will continue tuning the model and update model.**
+**we will release V1 checkpoint before 2.25.2024. We can not release the latest version, but the release one can also reproduce the result below to some extents. Anyone can finetune the model by their own dataset.**
 
 ### To Do list
 - [x] piepline based on SVD
