@@ -21,6 +21,10 @@ reproduction of AnimateAnyone using SVD
 - the face enhance result shows below in the V1 part
 ---
 
+### V1.1 animate-anyone ref-image case
+
+https://github.com/bendanzzc/AnimateAnyone-reproduction/assets/26294676/e1efacad-b12e-4121-abcb-4276b3960a3b
+
 ### V1
 **cross-domain case**
 
