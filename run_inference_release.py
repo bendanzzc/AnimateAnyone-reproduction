@@ -204,8 +204,8 @@ if __name__ == "__main__":
     from tqdm import tqdm
     args = {
         "pretrained_model_name_or_path": "SVD/svd_14",
-        "validation_image_folder": "./A1sJoS5NgBS/images",
-        "validation_control_folder": "./A1sJoS5NgBS/dwpose_woface",
+        "validation_image_folder": "./testcase/81FyMPk-WIS/images",
+        "validation_control_folder": "./testcase/81FyMPk-WIS/dwpose_woface",
         "output_dir": "./output",
         "height": 896,
         "width":704,
@@ -228,11 +228,12 @@ if __name__ == "__main__":
 
     # Inference and saving loop
     final_result = []
-    ref_image = validation_images[0]
+    #ref_image = validation_images[0]
+    ref_image = Image.open('./testcase/test_12.png')
     frames = 14
     num_frames = len(validation_images)
 
-    video_frames = pipeline(ref_image, validation_control_images[:num_frames], decode_chunk_size=2,num_frames=num_frames,motion_bucket_id=127.0, fps=7,controlnet_cond_scale=1.0, width=args['width'], height=args["height"], min_guidance_scale=3, max_guidance_scale=3, frames_per_batch=frames, num_inference_steps=25, overlap=4).frames[0]
+    video_frames = pipeline(ref_image, validation_control_images[:num_frames], decode_chunk_size=2,num_frames=num_frames,motion_bucket_id=127.0, fps=7,controlnet_cond_scale=1.0, width=args['width'], height=args["height"], min_guidance_scale=3.5, max_guidance_scale=3.5, frames_per_batch=frames, num_inference_steps=25, overlap=4).frames[0]
     final_result.append(video_frames)
 
     save_gifs_side_by_side(final_result,validation_images[:num_frames], validation_control_images[:num_frames],val_save_dir)
