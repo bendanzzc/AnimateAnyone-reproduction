@@ -1,14 +1,21 @@
 # animate-anyone-reproduction
 reproduction of AnimateAnyone using SVD
 
-**we will release V1 checkpoint before 2.25.2024. We can not release the latest version, but the release one can also reproduce the result below to some extents. Anyone can finetune the model by their own dataset.**
-
 ### To Do list
 - [x] piepline based on SVD
 - [x] train V0.9 which can only generate 14 frames per ref-image
 - [x] train animate-anyone like pipeline V1 which can generate arbitrary frames per ref-image
 - [x] enhance face quality and time consistency(trick according to analyse animate anyone app cases)
-- [ ] release V1 inference code and model
+- [x] release V1 inference code and model
+---
+**2024-02-25 update**
+- V1 [checkpoint](https://modelscope.cn/models/lightnessly/animate-anyone-v1/summary) can be download now.
+- We can not release V1.1 which is the latest version. But we will release V1.1 if we have V1.2 and so on.
+- we also provide testcase to reproduce V1 result as below.
+- the original result has bad quality on human face, so we use [simswap](https://github.com/neuralchen/SimSwap) to enhance face. More detials can be found in [issue](https://github.com/bendanzzc/AnimateAnyone-reproduction/issues/3).
+- You should first download the SVD model, and then use the unet provided by us to replace the original unet.
+- we find that the model has a certain degree of generalization on apperance and temporal consistency, but lacks the ability to generalize poses. So V1 can have a better performance on UBC pose.
+- we only add 300 high quality videos to achieve V1.1 results, you can finetune by your own datset.
 ---
  **2024-02-05 update**
 - because of the [issue](https://github.com/bendanzzc/AnimateAnyone-reproduction/issues/4), we decide to release inference code in advance which is not well organized but works.
