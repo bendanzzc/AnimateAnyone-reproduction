@@ -10,7 +10,7 @@ reproduction of AnimateAnyone using SVD
 ---
 **2024-02-25 update**
 - V1 [checkpoint](https://modelscope.cn/models/lightnessly/animate-anyone-v1/summary) can be download now.
-- We can not release V1.1 which is the latest version. But we will release V1.1 if we have V1.2 and so on.
+- We can not release V1.1 which is the latest version. But we will release V1.1 if we have V1.2. The released version will be one version behind the latest version.
 - we also provide testcase to reproduce V1 result as below.
 - the original result has bad quality on human face, so we use [simswap](https://github.com/neuralchen/SimSwap) to enhance face. More detials can be found in [issue](https://github.com/bendanzzc/AnimateAnyone-reproduction/issues/3).
 - You should first download the SVD model, and then use the unet provided by us to replace the original unet.
