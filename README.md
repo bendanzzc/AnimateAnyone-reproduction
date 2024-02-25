@@ -16,6 +16,7 @@ reproduction of AnimateAnyone using SVD
 - You should first download the SVD model, and then use the unet provided by us to replace the original unet.
 - we find that the model has a certain degree of generalization on apperance and temporal consistency, but lacks the ability to generalize poses. So V1 can have a better performance on UBC pose.
 - we only add 300 high quality videos to achieve V1.1 results, you can finetune by your own datset.
+- we do not have any plans to release the training script but [svd-temporal-controlnet](https://github.com/CiaraStrawberry/svd-temporal-controlnet) may work.
 ---
  **2024-02-05 update**
 - because of the [issue](https://github.com/bendanzzc/AnimateAnyone-reproduction/issues/4), we decide to release inference code in advance which is not well organized but works.
