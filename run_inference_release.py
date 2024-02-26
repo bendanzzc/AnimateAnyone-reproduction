@@ -229,7 +229,7 @@ if __name__ == "__main__":
     # Inference and saving loop
     final_result = []
     #ref_image = validation_images[0]
-    ref_image = Image.open('./testcase/test_12.png')
+    ref_image = Image.open('./testcase/test_12.png').convert('RGB')
     frames = 14
     num_frames = len(validation_images)
 
