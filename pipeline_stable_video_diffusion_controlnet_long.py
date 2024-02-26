@@ -20,14 +20,14 @@ import numpy as np
 import PIL.Image
 import torch
 from transformers import CLIPImageProcessor, CLIPVisionModelWithProjection
-from models.controlnet_sdv import ControlNetSDVModel
+from controlnet_sdv import ControlNetSDVModel
 
 from diffusers.image_processor import VaeImageProcessor
 from diffusers.models import AutoencoderKLTemporalDecoder, UNetSpatioTemporalConditionModel
 from diffusers.utils import BaseOutput, logging
 from diffusers.utils.torch_utils import randn_tensor
 from diffusers.pipelines.pipeline_utils import DiffusionPipeline
-from models.unet_spatio_temporal_condition_controlnet import UNetSpatioTemporalConditionControlNetModel
+from unet_spatio_temporal_condition_controlnet import UNetSpatioTemporalConditionControlNetModel
 from diffusers.schedulers import EulerDiscreteScheduler
 #from diffusers.pipelines.utils import PIL_INTERPOLATION, BaseOutput, logging
 
