@@ -219,7 +219,9 @@ if __name__ == "__main__":
 
 
     controlnet = ControlNetSDVModel.from_pretrained("/checkpoint/controlnet")
-    pipeline = StableVideoDiffusionPipelineControlNet.from_pretrained(args["pretrained_model_name_or_path"],controlnet=controlnet)
+    unet = UNetSpatioTemporalConditionControlNetModel.from_pretrained(args["pretrained_model_name_or_path"]+'/unet')
+    
+    pipeline = StableVideoDiffusionPipelineControlNet.from_pretrained(args["pretrained_model_name_or_path"], controlnet=controlnet, unet=unet)
     pipeline.to(dtype=torch.float16)
     pipeline.enable_model_cpu_offload()
 
