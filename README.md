@@ -7,6 +7,8 @@ reproduction of AnimateAnyone using SVD
 - [x] train animate-anyone like pipeline V1 which can generate arbitrary frames per ref-image
 - [x] enhance face quality and time consistency(trick according to analyse animate anyone app cases)
 - [x] release V1 inference code and model
+- [ ] train sdxl based animate-anyone V2
+- [ ] release V1.1
 ---
 **2024-02-25 update**
 - V1 [checkpoint](https://modelscope.cn/models/lightnessly/animate-anyone-v1/summary) can be download now.
