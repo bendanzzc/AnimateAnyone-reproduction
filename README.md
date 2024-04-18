@@ -7,8 +7,19 @@ reproduction of AnimateAnyone using SVD
 - [x] train animate-anyone like pipeline V1 which can generate arbitrary frames per ref-image
 - [x] enhance face quality and time consistency(trick according to analyse animate anyone app cases)
 - [x] release V1 inference code and model
-- [ ] train sdxl based animate-anyone V2
+- [ ] train svd+cross-attn based animate-anyone V2
 - [ ] release V1.1
+---
+**2024-04-18 update**
+svd+cross-attn cases
+
+
+https://github.com/bendanzzc/AnimateAnyone-reproduction/assets/26294676/602f743e-4023-40b1-adde-c1627062e617
+
+
+https://github.com/bendanzzc/AnimateAnyone-reproduction/assets/26294676/8c26fa6d-7b83-4a4e-b584-fd8af9439725
+
+
 ---
 **2024-02-25 update**
 - V1 [checkpoint](https://modelscope.cn/models/lightnessly/animate-anyone-v1/summary) can be download now.
