@@ -11,6 +11,9 @@ reproduction of AnimateAnyone using SVD
 - [ ] release V1.1
 ---
 **2024-04-18 update**
+- we found ori SVD has problems with consistency over long distances, so we learn from the structure of reference-net to keep the consistency over long distances while using the powerful SVD pretrain.
+
+  
 svd+cross-attn cases
 
 
